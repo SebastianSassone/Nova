@@ -1,5 +1,5 @@
 [
-    {"id":"1", "to":"/", "text":"Inicio", "class":"Inicio"},
+    {"id":"1", "to":"/inicio", "text":"Inicio", "class":"Inicio"},
     {"id":"2", "to":"/mensajes", "text":"Mensajes", "class":"mensajes"},
     {"id":"4", "to":"/notificaciones", "text":"Notificaciones", "class":"notificaciones"},
     {"id":"6", "to":"/cuenta", "text":"Cuenta", "class":"cuenta"}
