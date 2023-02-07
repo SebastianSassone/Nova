@@ -41,7 +41,7 @@ document.getElementById('sec_der').style.bottom = 90 + value / 260 + `px`;}
               </div> 
               <div className='conten_n_v'>
               <p className='nombre'>{name + ' ' + lastname}</p>
-              <div className='conten_v_c'><p className="boton_seguir">Seguir +</p></div>
+              <div className='conten_v_c'><p className="boton_seguir">Seguidores 0</p></div>
             </div>
             </div>
           <div className='main_cuenta'>  
