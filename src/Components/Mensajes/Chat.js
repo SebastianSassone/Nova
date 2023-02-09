@@ -25,12 +25,14 @@ useEffect(() => {
 
         <div className="chat">
             <div className="mos_msj_rec">
+             <div className="triangulo_izquierda"></div>   
             <p>
               Bienvenido a Nova, debo informarle que esta vercion de la aplicaion no cuenta con una  base de datos por lo cual 
               sus funcionlidades se encuentran limitadas.  
             </p>
             </div>
             <div className="mos_msj_env">
+              <div className="triangulo_derecha"></div>
             <p>
               {msj}
             </p>

@@ -9,9 +9,11 @@ function Mensajes(){
 
           <div className="content">
            <div className="conten_mensajes">
+            <div className="conten_chats">
            <Mensaje username="Martina Lopez"></Mensaje>
            <Mensaje username="Gaston Cruz"></Mensaje>
            <Mensaje username="Rich Eacth"></Mensaje>
+            </div>
            </div>
 
            <div className="sec_chats">
