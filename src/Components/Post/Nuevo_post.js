@@ -22,7 +22,6 @@ class NuevoPost extends React.Component {
   
     _handleSubmit(e) {
       e.preventDefault();
-      // TODO: do something with -> this.state.file
       console.log('handle uploading-', this.state.file);
       document.getElementById('mos_nu_post').style.display = 'flex'
       document.getElementById('button').disabled=true

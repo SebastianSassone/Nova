@@ -1,5 +1,6 @@
 import Mensaje from "./Mensaje";
 import Chat from "./Chat";
+import Footer from "../Footer/Footer"
 
 function Mensajes(){
 
@@ -14,6 +15,9 @@ function Mensajes(){
            <Mensaje username="Gaston Cruz"></Mensaje>
            <Mensaje username="Rich Eacth"></Mensaje>
             </div>
+
+           <Footer></Footer>
+
            </div>
 
            <div className="sec_chats">

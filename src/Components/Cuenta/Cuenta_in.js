@@ -2,6 +2,7 @@ import  Seach  from "../Seach/Seach"
 import SecMen from "../Secciones/Sec_men"
 import Enlinea from "../Conten_secs/En_linea"
 import SecCen from '../Secciones/Sec_cen'
+import Footer from "../Footer/Footer"
 
 import { useEffect, useState } from "react"
 
@@ -48,6 +49,7 @@ document.getElementById('sec_der').style.bottom = 90 + value / 260 + `px`;}
             <SecCen></SecCen> 
              <div className='sec_datos'>
               <p>{email}</p>
+              <Footer></Footer>
              </div>
             <div className="seccion_derecha" id="sec_der">
               <Seach></Seach>

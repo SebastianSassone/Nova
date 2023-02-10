@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
 
-
 function Chat(){
 
 const [mensaje, setMensaje] = useState("")
@@ -9,6 +8,9 @@ let handleSubmit = async (e) => {
     e.preventDefault();
     sessionStorage.setItem('Mensaje', mensaje)
     setMensaje("")
+
+    document.getElementById('mos_msj_env').style.display = 'flex'
+    document.getElementById('button').disabled=true
 }
 
 const[msj, setMsj] = useState("")
@@ -21,17 +23,17 @@ useEffect(() => {
     setMsj(getMsj());
 })
 
+
     return(
 
         <div className="chat">
             <div className="mos_msj_rec">
              <div className="triangulo_izquierda"></div>   
             <p>
-              Bienvenido a Nova, debo informarle que esta vercion de la aplicaion no cuenta con una  base de datos por lo cual 
-              sus funcionlidades se encuentran limitadas.  
+              Bienvenido a Nova, un proyecto front end con react
             </p>
             </div>
-            <div className="mos_msj_env">
+            <div className="mos_msj_env" id="mos_msj_env">
               <div className="triangulo_derecha"></div>
             <p>
               {msj}
@@ -42,7 +44,7 @@ useEffect(() => {
             value={mensaje}
             onChange={(e) => setMensaje(e.target.value)}
             ></textarea>
-            <button type="submit" className="env_msj">Enviar</button>
+            <button type="submit" className="env_msj" id="button">Enviar</button>
             </form> 
        
         </div>
