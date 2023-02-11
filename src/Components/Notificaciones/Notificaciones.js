@@ -6,7 +6,7 @@ function Notificaciones(){
           <div className="notifi_footer">
             <Footer></Footer>
           </div>
-            <div className="notificaciones">
+            <div className="notficas">
                 <div className="notificacion">
                     Bienvenido a la experiencia Nova!
                 </div>

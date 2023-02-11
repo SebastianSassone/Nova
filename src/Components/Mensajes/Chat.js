@@ -23,7 +23,6 @@ useEffect(() => {
     setMsj(getMsj());
 })
 
-
     return(
 
         <div className="chat">

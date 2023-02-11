@@ -25,7 +25,7 @@ return(
                speedMultiplier={0.6}
                color={'#25133a'}
                loading={loading} 
-         />:
+         />
          <></>
          <p>Cargando...</p>
          </div>:

@@ -164,7 +164,7 @@ body{
   position: fixed;
   height: 300px;
   width: 15%;
-  border: 3px solid aqua;
+  /* border: 3px solid aqua; */
   margin-right: 79.1%;
   margin-top: 192px;
   border-radius: 5px;
@@ -417,7 +417,7 @@ body{
   height: 20px;
   width: 20px;
 }
-
+    
 .reacciones button{
   background-color: aqua;
   padding: 5px;
@@ -548,7 +548,7 @@ body{
 .conten_chats{
   border-left: 1px solid aqua;
   border-right: 1px solid aqua;
-  margin-bottom: 120px;
+  margin-bottom: 600px;
 }
 
 .sec_chats{
@@ -580,7 +580,7 @@ body{
 }
 
 .triangulo_izquierda {
-  position: fixed;
+  position: absolute;
   background: transparent;
 	border-top: 15px solid transparent;
 	border-right: 15px solid aqua;
@@ -606,7 +606,7 @@ body{
   width: 0;
   height: 0;
   background: transparent;
-  position: fixed;
+  position: absolute;
   border-top: 15px solid transparent;
   border-left: 15px solid aqua; 
   border-bottom: 15px solid transparent;
@@ -636,13 +636,25 @@ body{
   border-radius: 5px;
 }
 
+.en_li_msj{
+  display: none;
+}
+
+.footer_adap{
+  height: 140px;
+  margin-top: -700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Notificaciones */
 
 .sec_notificaciones{
   display: flex;
 }
 
-.notificaciones{
+.notficas{
   height: 100vh;
   width: 100%;
 }
@@ -777,7 +789,7 @@ body{
   position: fixed;
   height: 250px;
   width:  196px;
-  border: 3px solid aqua;
+  /* border: 3px solid aqua; */
   margin-right: 78.2%;
   margin-top: -121px;
   border-radius: 5px;
@@ -894,6 +906,13 @@ body{
     padding: 18px;
   }
 
+  .mensajes{
+    background-image: url('/src/Components/img/mensajes.png');
+    font-size: 0px;
+    background-size: cover;
+    padding: 18px;
+  }
+
   .notificaciones{
     background-image: url('/src/Components/img/notificaciones.png');
     background-size: cover;
@@ -923,8 +942,12 @@ body{
 
   .mos_men{
     display: flex;
-    margin-left: 300px;
+    /* margin-left: ; */
     background-color: aqua;
+  }
+
+  .footer_adap{
+    display: none;
   }
 
 /* Seccion Izquierda */
@@ -1025,4 +1048,155 @@ body{
 .conten_n_v{
   width: 340px;
 }
+
+/* Mensajes */
+
+.section_mensajes{
+  border: 3px solid aqua;
+  height: 45%;
+  margin-top: 3%;
+  overflow: hidden;
+}
+
+.title_m{
+  /* color: white; */
+  margin-left: 35%;
+  padding: 7px;
+}
+
+/* Mensaje */
+
+.mensaje p{
+  /* color: white; */
+  margin-bottom: 2px;
+}
+
+/* Sec mensajes */
+
+.sec_mensajes{
+  display: flex;
+  /* border: 1px solid red; */
+  align-items: flex-end;
+  justify-content: baseline;
+  height: 89vh;
+}
+
+.content{
+  height: 64vh;
+  width: 100%;
+  display: flex;
+}
+
+.conten_mensajes{
+  height: 100vh;
+  width: 130px;
+  padding: 5px;
+  display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 15px;
+}
+
+.en_li_msj{
+  display: flex;
+  margin-top: 20px;
+}
+
+.conten_chats{
+  border-left: 1px solid aqua;
+  border-right: 1px solid aqua;
+}
+
+.mos_msj_rec{
+  width: 50%;
+  margin-left: 5%;
+}
+
+.mos_msj_env{
+  margin-left: 68%;
+}
+.triangulo_derecha{
+  margin-left: 30%;
+}
+
+.sec_chats{
+  width: 57%;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -99px;
+  height: 90vh;
+}
+
+.form_msj{
+ padding: 20px; 
+ display: flex;
+}
+
+.textarea_msj{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  width: 95%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.env_msj{
+  background-color: aqua;
+  color: black;
+  padding: 3px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+/* notoficaciones */
+
+.sec_notificaciones{
+  display: flex;
+}
+
+.notficas{
+  height: 100vh;
+  width: 100%;
+}
+
+.notificacion{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  margin-left: 10%;
+}
+
+.notifi_footer{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid aqua;
+  height: 250px;
+  margin-top: 50px;
+  display: none;
+}
+
+/* footer */
+
+.footer{
+  position: fixed;
+  margin-top: 20%;
+  margin-left: 0.01%;
+  padding: 10px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(56, 54, 54);
+  color: rgb(212, 203, 203);
+}
+
 }
