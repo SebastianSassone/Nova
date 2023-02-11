@@ -10,7 +10,6 @@ return(
                 <Cuenta_publ_li username="Martina Lopez"></Cuenta_publ_li>
                 <Cuenta_publ_li username="Gaston Cruz"></Cuenta_publ_li>
                 <Cuenta_publ_li username="Rich Eacth"></Cuenta_publ_li>
-                <Cuenta_publ_li username="Brenda Torres"></Cuenta_publ_li>
         </div>
 )
 }

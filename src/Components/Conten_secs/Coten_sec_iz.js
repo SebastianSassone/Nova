@@ -8,7 +8,7 @@ function Cotent_seciz(){
     document.getElementById('body').style.color = 'white'
 }
     return(
-          <div className="Cotent_seciz" heigth="20px"><h3>Cotent_seciz</h3>
+          <div className="Cotent_seciz"><h3>Iluminacion</h3>
           <div className="botones_iluminacion">
           <button id="claro" onClick={claro} className="boton_iluminacion_diurno">Claro</button>
           <button id="oscuro" onClick={oscuro} className="boton_iluminacion_nocturno">Oscuro</button>

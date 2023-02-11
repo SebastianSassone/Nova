@@ -9,9 +9,7 @@ function SecMen(){
    return(
       <section className="section_mensajes" onClick={aler}>  
        <p className="title_m" >Mensajes</p>
-       <Mensaje username="Martina Lopez"></Mensaje>
-       <Mensaje username="Gaston Cruz"></Mensaje>
-       <Mensaje username="Rich Eacth"></Mensaje>
+       <Mensaje username="Equipo Nova"></Mensaje>
       </section>
    )
 }
