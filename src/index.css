@@ -164,7 +164,6 @@ body{
   position: fixed;
   height: 300px;
   width: 15%;
-  /* border: 3px solid aqua; */
   margin-right: 79.1%;
   margin-top: 192px;
   border-radius: 5px;
@@ -684,7 +683,7 @@ body{
 
 .footer{
   position: fixed;
-  margin-top: 20%;
+  margin-top: 24%;
   margin-left: 0.01%;
   padding: 24px;
   width: 150px;
@@ -819,14 +818,17 @@ body{
   flex-direction: column;
   margin-left: 4%;
   align-items: center;
-  height: 30px;
-  margin-top: 20px;
+  height: 300px;
+  margin-top: 250px;
+  position: absolute;
+  font-size: 12px;
+  margin-left: 25%;
 }
 
 .botones_iluminacion{
   margin-top: 10px;
-  height: 50px;
-  width: 60px;
+  height: 23px;
+  width: 47px;
   display: flex;
   border: 2px solid aqua;
   background-color: rgba(0, 0, 0, 0);
@@ -836,11 +838,11 @@ body{
 
 .boton_iluminacion_diurno{
   margin-top: 0;
-  height: 30px;
-  width: 29px;
+  height: 25px;
+  width: 24px;
   font-size: 10px;
   border-radius: 70%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   color: rgba(70, 72, 74, 0);
   background-image: url("/src/Components/img/diurno.png");
   background-size: cover 100% 100%;
@@ -848,11 +850,11 @@ body{
 
 .boton_iluminacion_nocturno{
   margin-top: 0;
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   font-size: 10px;
   border-radius: 70%;
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   color:rgba(70, 72, 74, 0);
   background-image: url("/src/Components/img/nocturno.png");
   display: flex;
@@ -880,8 +882,18 @@ body{
   /* Registro */
   .section_registro{
     background-image: url('/src/Components/img/tree-6057779.jpg');
+    height: 100vh;
   }
 
+  .div_registro{
+    margin-top: -63px;
+    height: 80vh;
+    justify-content: space-around;
+  }
+
+  .section_registro form{
+    width: 250px;
+  }
 
   /* Menu */
   .nav_menu{
@@ -1088,11 +1100,11 @@ body{
 }
 
 .conten_mensajes{
-  height: 100vh;
   width: 130px;
   padding: 5px;
+  height: 10px;
   display: flex;
-  margin-top: 200px;
+  margin-top: 380px;
   flex-direction: column;
   justify-content: space-around;
   font-size: 15px;
@@ -1158,7 +1170,7 @@ body{
 }
 
 .notficas{
-  height: 100vh;
+  height: 400px;
   width: 100%;
 }
 
