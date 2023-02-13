@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Nova/inicio/static/css/main.241436ec.css",
-    "main.js": "/Nova/inicio/static/js/main.b907f0f7.js",
-    "static/js/787.506dd8ed.chunk.js": "/Nova/inicio/static/js/787.506dd8ed.chunk.js",
-    "static/media/estrellas-de-la-via-lactea_3840x2400_xtrafondos.com.jpg": "/Nova/inicio/static/media/estrellas-de-la-via-lactea_3840x2400_xtrafondos.com.ebb8c6f0fa1432c11680.jpg",
-    "static/media/tree-6057779.jpg": "/Nova/inicio/static/media/tree-6057779.54d286ed922ed6091c73.jpg",
-    "static/media/paseo_por_ciudad.jpg": "/Nova/inicio/static/media/paseo_por_ciudad.a69b15786daba5377eaf.jpg",
-    "static/media/puente.jpg": "/Nova/inicio/static/media/puente.9409bedd9a64df8f1cb0.jpg",
-    "static/media/paisaje_montañas.jpg": "/Nova/inicio/static/media/paisaje_montañas.f3658d0aa12f2d655af9.jpg",
-    "static/media/catedral_la_plata.jpeg": "/Nova/inicio/static/media/catedral_la_plata.9a3cfa6eabf0bf8b5c92.jpeg",
-    "static/media/paseo_naturaleza.jpg": "/Nova/inicio/static/media/paseo_naturaleza.a37b33ea64b3df350638.jpg",
-    "static/media/lobo_en_nieve.jpg": "/Nova/inicio/static/media/lobo_en_nieve.90d4ea7e6b2f98b88d8f.jpg",
-    "static/media/portadafondo.png": "/Nova/inicio/static/media/portadafondo.7ae7e430bade2a13df4a.png",
-    "static/media/user_icon_149851.png": "/Nova/inicio/static/media/user_icon_149851.10ef5b17475b0e5185a0.png",
-    "static/media/590-5906074_icono-lupa-signo-mas-icono-lupa-png-transparent.png": "/Nova/inicio/static/media/590-5906074_icono-lupa-signo-mas-icono-lupa-png-transparent.74d2f9e04107f38c9a80.png",
-    "index.html": "/Nova/inicio/index.html",
-    "main.241436ec.css.map": "/Nova/inicio/static/css/main.241436ec.css.map",
-    "main.b907f0f7.js.map": "/Nova/inicio/static/js/main.b907f0f7.js.map",
-    "787.506dd8ed.chunk.js.map": "/Nova/inicio/static/js/787.506dd8ed.chunk.js.map"
+    "main.css": "/Nova/static/css/main.86a3b975.css",
+    "main.js": "/Nova/static/js/main.af3690d8.js",
+    "static/js/787.506dd8ed.chunk.js": "/Nova/static/js/787.506dd8ed.chunk.js",
+    "static/media/estrellas-de-la-via-lactea_3840x2400_xtrafondos.com.jpg": "/Nova/static/media/estrellas-de-la-via-lactea_3840x2400_xtrafondos.com.ebb8c6f0fa1432c11680.jpg",
+    "static/media/tree-6057779.jpg": "/Nova/static/media/tree-6057779.54d286ed922ed6091c73.jpg",
+    "static/media/paseo_por_ciudad.jpg": "/Nova/static/media/paseo_por_ciudad.a69b15786daba5377eaf.jpg",
+    "static/media/puente.jpg": "/Nova/static/media/puente.9409bedd9a64df8f1cb0.jpg",
+    "static/media/paisaje_montañas.jpg": "/Nova/static/media/paisaje_montañas.f3658d0aa12f2d655af9.jpg",
+    "static/media/catedral_la_plata.jpeg": "/Nova/static/media/catedral_la_plata.9a3cfa6eabf0bf8b5c92.jpeg",
+    "static/media/paseo_naturaleza.jpg": "/Nova/static/media/paseo_naturaleza.a37b33ea64b3df350638.jpg",
+    "static/media/lobo_en_nieve.jpg": "/Nova/static/media/lobo_en_nieve.90d4ea7e6b2f98b88d8f.jpg",
+    "static/media/portadafondo.png": "/Nova/static/media/portadafondo.7ae7e430bade2a13df4a.png",
+    "static/media/user_icon_149851.png": "/Nova/static/media/user_icon_149851.10ef5b17475b0e5185a0.png",
+    "static/media/590-5906074_icono-lupa-signo-mas-icono-lupa-png-transparent.png": "/Nova/static/media/590-5906074_icono-lupa-signo-mas-icono-lupa-png-transparent.74d2f9e04107f38c9a80.png",
+    "index.html": "/Nova/index.html",
+    "main.86a3b975.css.map": "/Nova/static/css/main.86a3b975.css.map",
+    "main.af3690d8.js.map": "/Nova/static/js/main.af3690d8.js.map",
+    "787.506dd8ed.chunk.js.map": "/Nova/static/js/787.506dd8ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.241436ec.css",
-    "static/js/main.b907f0f7.js"
+    "static/css/main.86a3b975.css",
+    "static/js/main.af3690d8.js"
   ]
 }
