@@ -1,1214 +1,1252 @@
 *{
- padding: 0px;
- margin: 0px;
-}
-
-.preload{
-  display: flex;   
-  position: fixed;
-  z-index: 21;
-  justify-content: space-evenly;
-  flex-direction: column;
-  align-items: center;
-  background-size: cover;
-  height: 100vh;
-  width:100%;
-  background-color: black;
-  background-image: url('/src/Components/img/estrellas-de-la-via-lactea_3840x2400_xtrafondos.com.jpg');
-}
-
-.preload_text{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.preload_text h1{
-  font-size: 80px;
-  font-weight: lighter;
-}
-
-.preload_text p{
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-body{
-  background-color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  max-width: 100%;
-  color: white;
-}
-
-/* Registro */
-
-.section_registro{
-  position: fixed;
-  z-index: 20;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('/src/Components/img/estrellas-de-la-via-lactea_3840x2400_xtrafondos.com.jpg');
-  height: 100vh;
-}
-
-.div_registro{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 85vh;
-}
-
-.section_registro form{
-  background-color: rgba(0, 0, 0, 0.599);
-  color: white;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  border: 3px solid aqua;
-  border-radius: 5px;
-  width: 300px;
-}
-
-.section_registro button{
-  padding: 10px;
-  background-color: aqua;
-  color: black;
-  cursor: pointer;
-}
-
-.section_registro button:hover{
-  transform: scale(1.03);
-  transition: 0.5s;
-}
-
-/* Menu */
-
-  .nav_menu {
-    border: 2px solid aqua;
-    height: 72px;
-    background-image: url('/src/Components/img/portadafondo.png');
-    background-size: cover;
-    display: flex;
-    color: white;
-  }
-
-  .nav_menu  ul {
-    position: fixed;
-    z-index: 10;
-    background-color: aqua;
-    height: 221px;
-    margin-left: 4.5%;
-    padding: 10px;
-    width: 160px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    }
-
-  .nav_menu  ul li{
-   text-decoration: none;
-   list-style: none;
-  }
-
-  .nav_menu  ul li a{
+  padding: 0px;
+  margin: 0px;
+ }
+ 
+ .preload{
+   display: flex;   
+   position: fixed;
+   z-index: 21;
+   justify-content: space-evenly;
+   flex-direction: column;
+   align-items: center;
+   background-size: cover;
+   height: 100vh;
+   width:100%;
+   background-color: black;
+   background-image: url('/src/Components/img/estrellas-de-la-via-lactea_3840x2400_xtrafondos.com.jpg');
+ }
+ 
+ .preload_text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .preload_text h1{
+   font-size: 80px;
+   font-weight: lighter;
+ }
+ 
+ .preload_text p{
+   font-size: 20px;
+   font-weight: lighter;
+ }
+ 
+ body{
+   background-color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   max-width: 100%;
+   color: white;
+ }
+ 
+ /* Registro */
+ 
+ .section_registro{
+   position: fixed;
+   z-index: 20;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: white;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url('/src/Components/img/estrellas-de-la-via-lactea_3840x2400_xtrafondos.com.jpg');
+   height: 100vh;
+ }
+ 
+ .div_registro{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 85vh;
+ }
+ 
+ .section_registro form{
+   background-color: rgba(0, 0, 0, 0.599);
+   color: white;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   border: 3px solid aqua;
+   border-radius: 5px;
+   width: 300px;
+ }
+ 
+ .section_registro button{
+   padding: 10px;
+   background-color: aqua;
+   color: black;
+   cursor: pointer;
+ }
+ 
+ .section_registro button:hover{
+   transform: scale(1.03);
+   transition: 0.5s;
+ }
+ 
+ /* Menu */
+ 
+   .nav_menu {
+     border: 2px solid aqua;
+     height: 72px;
+     background-image: url('/src/Components/img/portadafondo.png');
+     background-size: cover;
+     display: flex;
+     color: white;
+   }
+ 
+   .nav_menu  ul {
+     position: fixed;
+     z-index: 10;
+     background-color: aqua;
+     height: 221px;
+     margin-left: 4.5%;
+     padding: 10px;
+     width: 160px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     }
+ 
+   .nav_menu  ul li{
     text-decoration: none;
-    color: black;
-    cursor: pointer;
-  }
-
-  .logo{
-    margin-left: 20%;
-    display: flex;
-    align-items: center;
-  }
-
-  .logo h1{
-    /* color: white; */
-    font-size: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-  }
-
-  .logo p{
-    /* color: white; */
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 29px;
-    font-weight: lighter;
-    margin-top: 26px;
-  }
-
-  .mos_men{
-    display: none;
-  }
-
-/* Main */
-
-.main{
-  display: flex;
-  justify-content: center;
-}
-
-/* Seccion Izquierda */
-
-.seccion_izquierda{
-  position: fixed;
-  height: 300px;
-  width: 15%;
-  margin-right: 79.1%;
-  margin-top: 192px;
-  border-radius: 5px;
-}
-
-/* Seccion Central */
-
-.seccion_central{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  overflow: hidden;
-  border: 3px solid aqua;
-  width: 50%;
-  margin-top: 40px;
-  border-radius: 5px;
-  }
-
-/* Seccion Derecha */
-
-.seccion_derecha{
-  position: fixed;
-  height: 550px;
-  width: 260px;
-  margin-top: 40px;
-  margin-left: 75%;
-  cursor: pointer;
-}
-
-/* Cuenta que publica */
-
-.cuenta_publi{
-  height: 36px;
-  width: 98.9%;
-  display: flex;
-  align-items: center;
-}
-
-.cuenta_publi div{
-  height: 25px;
-  width: 25px;
-  border-radius: 200px;
-  border: 3px solid aqua;
-  overflow: hidden;
-  background-image: url('/src/Components/img/user_icon_149851.png');
-  background-size: cover;
-  margin-left: 4px;
-  margin-top: 4px;
-}
-
-.cuenta_publi p{
-  margin-left: 3px;
-}
-
-/* .cuenta_publi p{
+    list-style: none;
+   }
+ 
+   .nav_menu  ul li a{
+     text-decoration: none;
+     color: black;
+     cursor: pointer;
+   }
+ 
+   .logo{
+     margin-left: 20%;
+     display: flex;
+     align-items: center;
+   }
+ 
+   .logo h1{
+     /* color: white; */
+     font-size: 70px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: lighter;
+   }
+ 
+   .logo p{
+     /* color: white; */
+     display: flex;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 29px;
+     font-weight: lighter;
+     margin-top: 26px;
+   }
+ 
+   .mos_men{
+     display: none;
+   }
+ 
+ /* Main */
+ 
+ .main{
+   display: flex;
+   justify-content: center;
+ }
+ 
+ /* Seccion Izquierda */
+ 
+ .seccion_izquierda{
+   position: fixed;
+   height: 300px;
+   width: 15%;
+   margin-right: 79.1%;
+   margin-top: 192px;
+   border-radius: 5px;
+ }
+ 
+ /* Seccion Central */
+ 
+ .seccion_central{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   overflow: hidden;
+   border: 3px solid aqua;
+   width: 50%;
+   margin-top: 40px;
+   border-radius: 5px;
+   }
+ 
+ /* Seccion Derecha */
+ 
+ .seccion_derecha{
+   position: fixed;
+   height: 550px;
+   width: 260px;
+   margin-top: 40px;
+   margin-left: 75%;
+   cursor: pointer;
+ }
+ 
+ /* Cuenta que publica */
+ 
+ .cuenta_publi{
+   height: 36px;
+   width: 98.9%;
+   display: flex;
+   align-items: center;
+ }
+ 
+ .cuenta_publi div{
+   height: 25px;
+   width: 25px;
+   border-radius: 200px;
+   border: 3px solid aqua;
+   overflow: hidden;
+   background-image: url('/src/Components/img/user_icon_149851.png');
+   background-size: cover;
+   margin-left: 4px;
+   margin-top: 4px;
+ }
+ 
+ .cuenta_publi p{
+   margin-left: 3px;
+ }
+ 
+ /* .cuenta_publi p{
+    color: white;
+ } */
+ 
+ /* Nuevo post */
+ 
+ .sec_nuevopost{
+   margin-top: 9px;
+ }
+ 
+ .div_nuevopost{
+   border: 3px solid aqua;
+   border-radius: 5px;
+ }
+ 
+ .nuevo_post{
+   height: 100px;
+   display: flex;
+   width: 470px;
+   flex-direction: column;
+   /* color: white; */
+ }
+ 
+ .nuevo_post textarea{
+   background-color: black;
+   height: 90%;
    color: white;
-} */
-
-/* Nuevo post */
-
-.sec_nuevopost{
-  margin-top: 9px;
-}
-
-.div_nuevopost{
-  border: 3px solid aqua;
-  border-radius: 5px;
-}
-
-.nuevo_post{
-  height: 100px;
-  display: flex;
-  width: 470px;
-  flex-direction: column;
-  /* color: white; */
-}
-
-.nuevo_post textarea{
-  background-color: black;
-  height: 90%;
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-  border: none;
-  margin-top: 3px;
-}
-
-.nuevo_post input{
-  border-radius: 5px;
-  height: 20px;
-}
-
-.nuevo_post div{
-  border: none;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.nuevo_post button{
-  background-color: aqua;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.nuevo_post button:hover{
-  transform: scale(1.2);
-  transition: 0.2s;
-}
-
-.nuevo_post button:active{
-  background-color: rgb(7, 89, 89);
-}
-
-.inputfile {
-  width: 0.1px;
-  height: 0.1px;
-  overflow: hidden;
-  position: absolute;
-} 
-
-.inputfile + label {
-  cursor: pointer;
-  border-radius: 5px;
-  padding: 4px;
-}
-
-.inputfile + label svg {
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-  fill: currentColor;
-  margin-top: -0.25em;
-  margin-right: 0.25em;
-}
-
-.iborrainputfile {
- font-size:16px;
-}
-
-.inputfile-1 + label {
-  color: black;
-  background-color: aqua;
-}
-
-.inputfile-1:focus + label,
-.inputfile-1.has-focus + label,
-.inputfile-1 + label:hover {
-  background-color: aqua;
-}
-
-.preview{
-  height: 30px;
-  width: 30px;
-}
-
-.preview img{
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.mos_nu_post{
-  display: none;
-}
-
-/* Post */
-
-.publicacion{
-  margin-top: 7px;
-  border-top: none;
-  height: 600px;
-  width: 470px;
-  border: 3px solid aqua;
-  /* color: white; */
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contenido{
-  height: 5%;
-}
-
-.imagenes{
-  height: 80%;
-  border: 3px solid aqua;
-  border-radius: 5px;
-  width: 80%;
-}
-
-.reacciones{
-  margin-top: 4px;
-  padding: 1px;
-  height: 7%;
-  width: 99%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.reacciones ul{
-  display: flex;
-  flex-direction: column-reverse;
-  margin-top: -1px;
-  height: 45px;
-  overflow: hidden;
-}
-
-.reacciones ul:hover{
-  transition: 1.0s;
-  margin-top: -233px;
-  height: 276px;
-}
-
-.reacciones ul li{
-  list-style: none;
-  font-size: 19px;
-}
-
-.reacciones p{
-  display: flex;
-  background-color: aqua;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  align-items: center;
-  justify-content: space-around;
-  width: 90px;
-  cursor: pointer;
-}
-
-.reacciones p:hover{
-  transform: scale(1.03);
-  transition: 0.2s;
-}
-
-.com_img1{
-  background-image: url('/src/Components/img/comentar.png');
-  background-size: cover;
-  height: 20px;
-  width: 20px;
-}
-
-.com_img2{
-  background-image: url('/src/Components/img/compartir.png');
-  background-size: cover;
-  height: 20px;
-  width: 20px;
-}
-    
-.reacciones button{
-  background-color: aqua;
-  padding: 5px;
-  width: 60px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.reacciones button:hover{
-  transform: scale(1.2);
-  transition: 0.2s;
-}
-
-.reacciones button:active{
-  background-color: rgb(7, 89, 89);
-}
-
-.imagenes1{
-  height: 80%;
-  overflow: hidden;
-  border: 3px solid aqua;
-  border-radius: 5px;
-  background-size: cover;
-  width: 80%;
-}
-
-.imagenes1 img{
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.imagenes{
-  height: 80%;
-  overflow: hidden;
-  border: 3px solid aqua;
-  border-radius: 5px;
-  background-size: cover;
-  width: 80%;
-}
-
-.imagenes img{
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-/* Search */
-
-.search{
-  border: 3px solid aqua;
-  height: 5%;
-  display: flex;
-  justify-content: space-around;
-  border-radius: 4px;
-}
-
-.search input{
-  background-color: black;
-  outline: none;
-  border: none;
-  /* color: white; */
-  width: 90%;
-}
-
-.search div{
-  height: 100%;
-  width: 30px;
-  background-image: url('/src/Components/img/590-5906074_icono-lupa-signo-mas-icono-lupa-png-transparent.png');
-  background-size: cover;
-}
-
-/* Mensajes */
-
-.section_mensajes{
-  border: 3px solid aqua;
-  height: 45%;
-  margin-top: 3%;
-  overflow: hidden;
-}
-
-.title_m{
-  /* color: white; */
-  margin-left: 35%;
-  padding: 7px;
-}
-
-/* Mensaje */
-
-.mensaje{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-bottom: 3px solid aqua;
-  border-top: 3px solid aqua;
-}
-
-.mensaje p{
-  /* color: white; */
-  margin-bottom: 2px;
-}
-
-/* Sec mensajes */
-
-.sec_mensajes{
-  display: flex;
-  /* border: 1px solid red; */
-  align-items: flex-end;
-  justify-content: baseline;
-  height: 89vh;
-}
-
-.content{
-  height: 64vh;
-  width: 100%;
-  display: flex;
-}
-
-.conten_mensajes{
-  height: 290px;
-  width: 200px;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.conten_chats{
-  border-left: 1px solid aqua;
-  border-right: 1px solid aqua;
-  margin-bottom: 600px;
-}
-
-.sec_chats{
-  width: 77%;
-  position: absolute;
-  margin-left: 300px;
-  margin-top: -170px;
-  height: 610px;
-  display: flex;
-  align-items: flex-end;
-  border-left: 1px solid aqua;
-  border-right: 1px solid aqua;
-}
-
-/* Chat */
-.chat{
-  /* border: 1px solid rgb(0, 255, 47); */
-  width: 100%;
-}
-
-.mos_msj_rec{
-  border: 1px solid aqua;
-  width: 25%;
-  padding: 4px;
-  background-color: aqua;
-  border-radius: 5px;
-  margin-left: 1%;
-  color: black;
-}
-
-.triangulo_izquierda {
-  position: absolute;
-  background: transparent;
-	border-top: 15px solid transparent;
-	border-right: 15px solid aqua;
-	border-bottom: 15px solid transparent;
-  margin-left: -15.5px;
-  margin-top: 5px;
-}
-
-.mos_msj_env{
-  border: 1px solid aqua;
-  width: 25%; 
-  height: 35px;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  background-color: aqua;
-  border-radius: 5px;
-  margin-left: 60%;
-  color: black;
-}
-  
-.triangulo_derecha {
-  width: 0;
-  height: 0;
-  background: transparent;
-  position: absolute;
-  border-top: 15px solid transparent;
-  border-left: 15px solid aqua; 
-  border-bottom: 15px solid transparent;
-  margin-left: 270px;
-}
-
-.form_msj{
- padding: 20px; 
- display: flex;
-}
-
-.textarea_msj{
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  outline: none;
-  border: none;
-  width: 95%;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.env_msj{
-  background-color: aqua;
-  color: black;
-  padding: 10px;
-  width: 10%;
-  border-radius: 5px;
-}
-
-.en_li_msj{
-  display: none;
-}
-
-.footer_adap{
-  height: 140px;
-  margin-top: -700px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Notificaciones */
-
-.sec_notificaciones{
-  display: flex;
-}
-
-.notficas{
-  height: 100vh;
-  width: 100%;
-}
-
-.notificacion{
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid aqua;
-  border-radius: 5px;
-  padding: 40px;
-  width: 700px;
-  margin-left: 10%;
-}
-
-.notifi_footer{
-  width: 380px;
-  display: flex;
-  justify-content: center;
-  border-right: 1px solid aqua;
-  height: 400px;
-  margin-top: 150px;
-}
-
-/* Footer */
-
-.footer{
-  position: fixed;
-  margin-top: 24%;
-  margin-left: 0.01%;
-  padding: 24px;
-  width: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(56, 54, 54);
-  color: rgb(212, 203, 203);
-}
-
-/* En linea */
-
-.en_linea{
-  border: 3px solid aqua;
-  height: 45%;
-  overflow: hidden;
-}
-
-.title_l{
-  /* color: white; */
-  margin-left: 35%;
-  padding: 7px;
-}
-
-/* Cuenta */
-
-.section_cuenta{
-  width: 99%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-}
-
-.conten_p_f{
-  width: 100%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.portada{
-  height: 240px;
-  width: 79%;
-  margin-left: 18%;
-  border: 3px solid aqua;
-  background: rgb(0,255,222);
- background: linear-gradient(339deg, rgba(0,255,222,1) 0%, rgba(0,14,12,1) 30%, rgba(0,40,35,1) 39%, rgba(0,109,95,1) 51%, rgba(0,34,30,1) 63%, rgba(0,0,0,1) 70%, rgba(0,238,207,1) 100%);
-}
-
-.foto_perfil{
-  position: absolute;
-  height: 150px;
-  width: 150px;
-  margin-top: 135px;
-  margin-left: 30px;
-  border-radius: 200px;
-  border: 3px solid aqua;
-  background-image: url('/src/Components/img/user_icon_149851.png');
-  background-size: cover;
-  background-color: #000;
-}
-
-.activ p{
-  /* color: white; */
-  position: absolute;
-  margin-top: 120px;
-  margin-left: 110px;
-}
-
-.boton_seguir{
-  padding: 5px;
-  width: 86px;
-  color: black;
-  border-radius: 5px;
-  background-color: aqua;
-  cursor: pointer;
-}
-
-.conten_n_v{
-  height: 20px;
-  width: 450px;
-  display: flex;
-  margin-bottom: 10px;
-  justify-content: space-between;
-}
-
-/* .nombre{color: white;} */
-
-/* .conten_v_c{color: white;} */
-
-.main_cuenta{
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-}
-
-.sec_datos{
-  position: fixed;
-  height: 250px;
-  width:  196px;
-  /* border: 3px solid aqua; */
-  margin-right: 78.2%;
-  margin-top: -121px;
-  border-radius: 5px;
-}
-
-/* .sec_datos p {
-   color: white;
-} */
-
-#sec_der{
-  position: fixed;
-  margin-top: 0px;
-  background-color: black;
-}
-
-/* Usuario */
-
-.activ{
-  height: 20px;
-  width: 20px;
-}
-
-/* Botones iluminacion */
-
-.Cotent_seciz{
-  display: flex;
-  flex-direction: column;
-  margin-left: 4%;
-  align-items: center;
-  height: 300px;
-  margin-top: 250px;
-  position: absolute;
-  font-size: 12px;
-  margin-left: 25%;
-}
-
-.botones_iluminacion{
-  margin-top: 10px;
-  height: 23px;
-  width: 47px;
-  display: flex;
-  border: 2px solid aqua;
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 5px;
-  padding: 3px;
-}
-
-.boton_iluminacion_diurno{
-  margin-top: 0;
-  height: 25px;
-  width: 24px;
-  font-size: 10px;
-  border-radius: 70%;
-  /* border: 1px solid white; */
-  color: rgba(70, 72, 74, 0);
-  background-image: url("/src/Components/img/diurno.png");
-  background-size: cover 100% 100%;
-}
-
-.boton_iluminacion_nocturno{
-  margin-top: 0;
-  height: 25px;
-  width: 25px;
-  font-size: 10px;
-  border-radius: 70%;
-  /* border: 1px solid rgb(0, 0, 0); */
-  color:rgba(70, 72, 74, 0);
-  background-image: url("/src/Components/img/nocturno.png");
-  display: flex;
-  background-size: cover;
-}
-
-/* Scrool baar */
-
-  *::-webkit-scrollbar {
-    width: 12px;
-  }
-
-  *::-webkit-scrollbar-track {
-    background: #0a0000;
-  }
-
-  *::-webkit-scrollbar-thumb {
-    background-color: aqua;
-    border-radius: 5px;
-    border: 3px ridge #000000;
-  }
-
-@media screen and (max-width: 600px){
-
-  /* Registro */
-  .section_registro{
-    background-image: url('/src/Components/img/tree-6057779.jpg');
-    height: 100vh;
-  }
-
-  .div_registro{
-    margin-top: -63px;
-    height: 80vh;
-    justify-content: space-around;
-  }
-
-  .section_registro form{
-    width: 250px;
-  }
-
-  /* Menu */
-  .nav_menu{
-    height: 30px;
-  }
-
-  .nav_menu  ul{
-    justify-content: space-evenly;
-    flex-direction: row;
-    height: 30px;
-    margin-left: 45%;
-    background-color: aqua;
-    padding: 0px;
-    overflow: hidden;
-    position: absolute;
-  }
-
-  .inicio{
-    background-image: url('/src/Components/img/inicio.png');
-    font-size: 0px;
-    background-size: cover;
-    padding: 18px;
-  }
-
-  .mensajes{
-    background-image: url('/src/Components/img/mensajes.png');
-    font-size: 0px;
-    background-size: cover;
-    padding: 18px;
-  }
-
-  .notificaciones{
-    background-image: url('/src/Components/img/notificaciones.png');
-    background-size: cover;
-    font-size: 0px;
-    padding: 18px;
-  }
-
-  .cuenta{
-    background-image: url('/src/Components/img/cuenta.png');
-    font-size: 0px;
-    background-size: cover;
-    padding: 18px;
-  }
-
-  .logo{
-    margin-left: 0%;
-  }
-
-  .logo h1{
-     font-size: 23px;
-    }
-
-  .logo p{
-    font-size: 10.5px;
-    margin-top: 6px;
-  }
-
-  .mos_men{
-    display: flex;
-    /* margin-left: ; */
-    background-color: aqua;
-  }
-
-  .footer_adap{
-    display: none;
-  }
-
-/* Seccion Izquierda */
-
-  .seccion_izquierda{
-   display: none;
+   font-family: 'Times New Roman', Times, serif;
+   border: none;
    margin-top: 3px;
-   height: 200px;
-  }
-
-/* Seccion Central */
-
-  .seccion_central{
+ }
+ 
+ .nuevo_post input{
+   border-radius: 5px;
+   height: 20px;
+ }
+ 
+ .nuevo_post div{
+   border: none;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .nuevo_post button{
+   background-color: aqua;
+   padding: 5px;
+   border-radius: 5px;
+ }
+ 
+ .nuevo_post button:hover{
+   transform: scale(1.2);
+   transition: 0.2s;
+ }
+ 
+ .nuevo_post button:active{
+   background-color: rgb(7, 89, 89);
+ }
+ 
+ .inputfile {
+   width: 0.1px;
+   height: 0.1px;
+   overflow: hidden;
+   position: absolute;
+ } 
+ 
+ .inputfile + label {
+   cursor: pointer;
+   border-radius: 5px;
+   padding: 4px;
+ }
+ 
+ .inputfile + label svg {
+   width: 1em;
+   height: 1em;
+   vertical-align: middle;
+   fill: currentColor;
+   margin-top: -0.25em;
+   margin-right: 0.25em;
+ }
+ 
+ .iborrainputfile {
+  font-size:16px;
+ }
+ 
+ .inputfile-1 + label {
+   color: black;
+   background-color: aqua;
+ }
+ 
+ .inputfile-1:focus + label,
+ .inputfile-1.has-focus + label,
+ .inputfile-1 + label:hover {
+   background-color: aqua;
+ }
+ 
+ .preview{
+   height: 30px;
+   width: 30px;
+ }
+ 
+ .preview img{
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+ }
+ 
+ .mos_nu_post{
+   display: none;
+ }
+ 
+ /* Post */
+ 
+ .publicacion{
+   margin-top: 7px;
+   border-top: none;
+   height: 600px;
+   width: 470px;
+   border: 3px solid aqua;
+   /* color: white; */
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .contenido{
+   height: 5%;
+ }
+ 
+ .imagenes{
+   height: 80%;
+   border: 3px solid aqua;
+   border-radius: 5px;
+   width: 80%;
+ }
+ 
+ .reacciones{
+   margin-top: 4px;
+   padding: 1px;
+   height: 7%;
+   width: 99%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .reacciones ul{
+   display: flex;
+   flex-direction: column-reverse;
+   margin-top: -1px;
+   height: 45px;
+   overflow: hidden;
+ }
+ 
+ .reacciones ul:hover{
+   transition: 1.0s;
+   margin-top: -233px;
+   height: 276px;
+ }
+ 
+ .reacciones ul li{
+   list-style: none;
+   font-size: 19px;
+ }
+ 
+ .reacciones p{
+   display: flex;
+   background-color: aqua;
+   color: black;
+   padding: 10px;
+   border-radius: 5px;
+   align-items: center;
+   justify-content: space-around;
+   width: 90px;
+   cursor: pointer;
+ }
+ 
+ .reacciones p:hover{
+   transform: scale(1.03);
+   transition: 0.2s;
+ }
+ 
+ .com_img1{
+   background-image: url('/src/Components/img/comentar.png');
+   background-size: cover;
+   height: 20px;
+   width: 20px;
+ }
+ 
+ .com_img2{
+   background-image: url('/src/Components/img/compartir.png');
+   background-size: cover;
+   height: 20px;
+   width: 20px;
+ }
+     
+ .reacciones button{
+   background-color: aqua;
+   padding: 5px;
+   width: 60px;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .reacciones button:hover{
+   transform: scale(1.2);
+   transition: 0.2s;
+ }
+ 
+ .reacciones button:active{
+   background-color: rgb(7, 89, 89);
+ }
+ 
+ .imagenes1{
+   height: 80%;
+   overflow: hidden;
+   border: 3px solid aqua;
+   border-radius: 5px;
+   background-size: cover;
+   width: 80%;
+ }
+ 
+ .imagenes1 img{
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+ }
+ 
+ .imagenes{
+   height: 80%;
+   overflow: hidden;
+   border: 3px solid aqua;
+   border-radius: 5px;
+   background-size: cover;
+   width: 80%;
+ }
+ 
+ .imagenes img{
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+ }
+ 
+ /* Search */
+ 
+ .search{
+   border: 3px solid aqua;
+   height: 5%;
+   display: flex;
+   justify-content: space-around;
+   border-radius: 4px;
+ }
+ 
+ .search input{
+   background-color: black;
+   outline: none;
+   border: none;
+   /* color: white; */
+   width: 90%;
+ }
+ 
+ .search div{
+   height: 100%;
+   width: 30px;
+   background-image: url('/src/Components/img/590-5906074_icono-lupa-signo-mas-icono-lupa-png-transparent.png');
+   background-size: cover;
+ }
+ 
+ /* Mensajes */
+ 
+ .section_mensajes{
+   border: 3px solid aqua;
+   height: 45%;
+   margin-top: 3%;
+   overflow: hidden;
+ }
+ 
+ .title_m{
+   /* color: white; */
+   margin-left: 35%;
+   padding: 7px;
+ }
+ 
+ /* Mensaje */
+ 
+ .mensaje{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-bottom: 3px solid aqua;
+   border-top: 3px solid aqua;
+ }
+ 
+ .mensaje p{
+   /* color: white; */
+   margin-bottom: 2px;
+ }
+ 
+ /* Sec mensajes */
+ 
+ .sec_mensajes{
+   display: flex;
+   /* border: 1px solid red; */
+   align-items: flex-end;
+   justify-content: baseline;
+   height: 89vh;
+ }
+ 
+ .content{
+   height: 64vh;
+   width: 100%;
+   display: flex;
+ }
+ 
+ .conten_mensajes{
+   height: 290px;
+   width: 200px;
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+ }
+ 
+ .conten_chats{
+   border-left: 1px solid aqua;
+   border-right: 1px solid aqua;
+   margin-bottom: 600px;
+ }
+ 
+ .sec_chats{
+   width: 77%;
+   position: absolute;
+   margin-left: 300px;
+   margin-top: -170px;
+   height: 610px;
+   display: flex;
+   align-items: flex-end;
+   border-left: 1px solid aqua;
+   border-right: 1px solid aqua;
+ }
+ 
+ /* Chat */
+ .chat{
+   /* border: 1px solid rgb(0, 255, 47); */
+   width: 100%;
+ }
+ 
+ .mos_msj_rec{
+   border: 1px solid aqua;
+   width: 25%;
+   padding: 4px;
+   background-color: aqua;
+   border-radius: 5px;
+   margin-left: 1%;
+   color: black;
+ }
+ 
+ .triangulo_izquierda {
+   position: absolute;
+   background: transparent;
+   border-top: 15px solid transparent;
+   border-right: 15px solid aqua;
+   border-bottom: 15px solid transparent;
+   margin-left: -15.5px;
+   margin-top: 5px;
+ }
+ 
+ .mos_msj_env{
+   border: 1px solid aqua;
+   width: 25%; 
+   height: 35px;
+   display: none;
+   justify-content: center;
+   align-items: center;
+   background-color: aqua;
+   border-radius: 5px;
+   margin-left: 60%;
+   color: black;
+ }
+   
+ .triangulo_derecha {
+   width: 0;
+   height: 0;
+   background: transparent;
+   position: absolute;
+   border-top: 15px solid transparent;
+   border-left: 15px solid aqua; 
+   border-bottom: 15px solid transparent;
+   margin-left: 270px;
+ }
+ 
+ .form_msj{
+  padding: 20px; 
+  display: flex;
+ }
+ 
+ .textarea_msj{
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   outline: none;
+   border: none;
+   width: 95%;
+   font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ .env_msj{
+   background-color: aqua;
+   color: black;
+   padding: 10px;
+   width: 10%;
+   border-radius: 5px;
+ }
+ 
+ .en_li_msj{
+   display: none;
+ }
+ 
+ .footer_adap{
+   height: 140px;
+   margin-top: -700px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ /* Notificaciones */
+ 
+ .sec_notificaciones{
+   display: flex;
+ }
+ 
+ .notficas{
+   height: 100vh;
+   width: 100%;
+ }
+ 
+ .notificacion{
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid aqua;
+   border-radius: 5px;
+   padding: 40px;
+   width: 700px;
+   margin-left: 10%;
+ }
+ 
+ .notifi_footer{
+   width: 380px;
+   display: flex;
+   justify-content: center;
+   border-right: 1px solid aqua;
+   height: 400px;
+   margin-top: 150px;
+ }
+ 
+ /* Footer */
+ 
+ .footer{
+   position: fixed;
+   margin-top: 24%;
+   margin-left: 0.01%;
+   padding: 24px;
+   width: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(56, 54, 54);
+   color: rgb(212, 203, 203);
+ }
+ 
+ /* En linea */
+ 
+ .en_linea{
+   border: 3px solid aqua;
+   height: 45%;
+   overflow: hidden;
+ }
+ 
+ .title_l{
+   /* color: white; */
+   margin-left: 35%;
+   padding: 7px;
+ }
+ 
+ /* Cuenta */
+ 
+ .section_cuenta{
+   width: 99%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+ }
+ 
+ .conten_p_f{
+   width: 100%;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+ }
+ 
+ .portada{
+   height: 240px;
+   width: 79%;
+   margin-left: 18%;
+   border: 3px solid aqua;
+   background: rgb(0,255,222);
+  background: linear-gradient(339deg, rgba(0,255,222,1) 0%, rgba(0,14,12,1) 30%, rgba(0,40,35,1) 39%, rgba(0,109,95,1) 51%, rgba(0,34,30,1) 63%, rgba(0,0,0,1) 70%, rgba(0,238,207,1) 100%);
+ }
+ 
+ .foto_perfil{
+   position: absolute;
+   height: 150px;
+   width: 150px;
+   margin-top: 135px;
+   margin-left: 30px;
+   border-radius: 200px;
+   border: 3px solid aqua;
+   background-image: url('/src/Components/img/user_icon_149851.png');
+   background-size: cover;
+   background-color: #000;
+ }
+ 
+ .activ p{
+   /* color: white; */
+   position: absolute;
+   margin-top: 120px;
+   margin-left: 110px;
+ }
+ 
+ .boton_seguir{
+   padding: 5px;
+   width: 86px;
+   color: black;
+   border-radius: 5px;
+   background-color: aqua;
+   cursor: pointer;
+ }
+ 
+ .conten_n_v{
+   height: 20px;
+   width: 450px;
+   display: flex;
+   margin-bottom: 10px;
+   justify-content: space-between;
+ }
+ 
+ /* .nombre{color: white;} */
+ 
+ /* .conten_v_c{color: white;} */
+ 
+ .main_cuenta{
    display: flex;
    width: 100%;
-   border: none;
-   margin-top: 5px;
-  }
-
-/* Seccion Derecha */
-
-.seccion_derecha{
-  display: flex;
-  position: fixed;
-  margin-left: 340px;
-  height: 100vh;
-  width: 0px;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid red;
-  background-color: black;
-  margin-top: 0px;
-  visibility: hidden;
+   justify-content: space-around;
  }
-
-/* Nuevo Post */
-
-.nuevo_post{
-  width: 360px;
-}
-
-.nuevo_post label{
-  height: 13px;
-  margin-right: 1px;
+ 
+ .sec_datos{
+   position: fixed;
+   height: 250px;
+   width:  196px;
+   /* border: 3px solid aqua; */
+   margin-right: 78.2%;
+   margin-top: -121px;
+   border-radius: 5px;
+ }
+ 
+ /* .sec_datos p {
+    color: white;
+ } */
+ 
+ #sec_der{
+   position: fixed;
+   margin-top: 0px;
+   background-color: black;
+ }
+ 
+ /* Usuario */
+ 
+ .activ{
+   height: 20px;
+   width: 20px;
+ }
+ 
+ /* Botones iluminacion */
+ 
+ .Cotent_seciz{
+   display: flex;
+   flex-direction: column;
+   margin-left: 4%;
+   align-items: center;
+   height: 300px;
+   margin-top: 250px;
+   position: absolute;
+   font-size: 12px;
+   margin-left: 25%;
+ }
+ 
+ .botones_iluminacion{
+   margin-top: 10px;
+   height: 23px;
+   width: 47px;
+   display: flex;
+   border: 2px solid aqua;
+   background-color: rgba(0, 0, 0, 0);
+   border-radius: 5px;
+   padding: 3px;
+ }
+ 
+ .boton_iluminacion_diurno{
+   margin-top: 0;
+   height: 25px;
+   width: 24px;
+   font-size: 10px;
+   border-radius: 70%;
+   /* border: 1px solid white; */
+   color: rgba(70, 72, 74, 0);
+   background-image: url("/src/Components/img/diurno.png");
+   background-size: cover 100% 100%;
+ }
+ 
+ .boton_iluminacion_nocturno{
+   margin-top: 0;
+   height: 25px;
+   width: 25px;
+   font-size: 10px;
+   border-radius: 70%;
+   /* border: 1px solid rgb(0, 0, 0); */
+   color:rgba(70, 72, 74, 0);
+   background-image: url("/src/Components/img/nocturno.png");
+   display: flex;
+   background-size: cover;
+ }
+ 
+ /* Scrool baar */
+ 
+   *::-webkit-scrollbar {
+     width: 12px;
+   }
+ 
+   *::-webkit-scrollbar-track {
+     background: #0a0000;
+   }
+ 
+   *::-webkit-scrollbar-thumb {
+     background-color: aqua;
+     border-radius: 5px;
+     border: 3px ridge #000000;
+   }
+ 
+ @media screen and (max-width: 600px){
+ 
+   /* Registro */
+   .section_registro{
+     background-image: url('/src/Components/img/tree-6057779.jpg');
+     height: 100vh;
+     justify-content: flex-start;
+   }
+ 
+   .section_registro button {
+     margin-top: 2.5%;
+   }
+ 
+   .section_registro p{
+     padding: 6px;
+   }
+ 
+   .div_registro{
+     height: 80%;
+     justify-content: space-around;
+   }
+   
+   .div_registro h1{
+       display: none;
+   }
+   
+   .section_registro form{
+     width: 250px;
+   }
+ 
+   /* Menu */
+   .nav_menu{
+     height: 30px;
+   }
+ 
+   .nav_menu  ul{
+     justify-content: space-evenly;
+     flex-direction: row;
+     height: 30px;
+     margin-left: 45%;
+     background-color: aqua;
+     padding: 0px;
+     overflow: hidden;
+     position: absolute;
+   }
+ 
+   .inicio{
+     background-image: url('/src/Components/img/inicio.png');
+     font-size: 0px;
+     background-size: cover;
+     padding: 18px;
+   }
+ 
+   .mensajes{
+     background-image: url('/src/Components/img/mensajes.png');
+     font-size: 0px;
+     background-size: cover;
+     padding: 18px;
+   }
+ 
+   .notificaciones{
+     background-image: url('/src/Components/img/notificaciones.png');
+     background-size: cover;
+     font-size: 0px;
+     padding: 18px;
+   }
+ 
+   .cuenta{
+     background-image: url('/src/Components/img/cuenta.png');
+     font-size: 0px;
+     background-size: cover;
+     padding: 18px;
+   }
+ 
+   .logo{
+     margin-left: 0%;
+   }
+ 
+   .logo h1{
+      font-size: 23px;
+     }
+ 
+   .logo p{
+     font-size: 10.5px;
+     margin-top: 6px;
+   }
+ 
+   .mos_men{
+     display: flex;
+     /* margin-left: ; */
+     background-color: aqua;
+   }
+ 
+   .footer_adap{
+     display: none;
+   }
+ 
+ /* Seccion Izquierda */
+ 
+   .seccion_izquierda{
+    display: none;
+    margin-top: 3px;
+    height: 200px;
+   }
+ 
+ /* Seccion Central */
+ 
+   .seccion_central{
+    display: flex;
+    width: 100%;
+    border: none;
+    margin-top: 5px;
+   }
+ 
+ /* Seccion Derecha */
+ 
+ .seccion_derecha{
+   display: flex;
+   position: fixed;
+   margin-left: 340px;
+   height: 100vh;
+   width: 0px;
+   display: flex;
+   flex-direction: column;
+   border: 1px solid red;
+   background-color: black;
+   margin-top: 0px;
+   visibility: hidden;
+  }
+ 
+ /* Nuevo Post */
+ 
+ .nuevo_post{
+   width: 360px;
+ }
+ 
+ .nuevo_post label{
+   height: 13px;
+   margin-right: 1px;
+   display: flex;
+   align-items: center;
+   padding: 5px;
+ }
+ 
+ .nuevo_post span{
+   font-size: 11px;
+ }
+ 
+ .nuevo_post button{
+   font-size: 11px;
+ }
+ 
+ /* Post */
+ 
+ .publicacion{
+   width: 360px;
+   height: 400px;
+ }
+ 
+ .reacciones button{
+   padding: 0px;
+   font-size: 11px;
+ }
+ 
+ .reacciones p {
+   padding: 4px;
+ }
+ 
+ .com_img1 {
+   height: 15px;
+   width: 15px;
+ }
+ 
+ .com_img2 {
+   height: 15px;
+   width: 15px;
+ }
+ 
+ .reacciones ul{
+   height: 34px;
+   margin-top: -5px;
+ }
+ 
+ .reacciones ul:hover{
+   height: 260px;
+ }
+ 
+ .reacciones button{
+   padding: 1px;
+ } 
+ /* Cuenta */
+ 
+ .conten_p_f{
+   height: 200px;
+ }
+ 
+ .portada{
+   height: 100px;
+   margin-left: 0%;
+   width: 100%;
+ }
+ 
+ .foto_perfil{
+   height: 100px;
+   width: 100px;
+   margin-top: 50px;
+   margin-left: 35%;
+ }
+ 
+ .sec_datos{
+   position: absolute;
+   height: 110px;
+   width: 100%;
+   margin-top: 60px;
+   margin-bottom: 20px;
+   display: none;
+ }
+ 
+ .conten_n_v{
+   width: 340px;
+ }
+ 
+ /* Mensajes */
+ 
+ .section_mensajes{
+   border: 3px solid aqua;
+   height: 45%;
+   margin-top: 3%;
+   overflow: hidden;
+ }
+ 
+ .title_m{
+   /* color: white; */
+   margin-left: 35%;
+   padding: 7px;
+ }
+ 
+ /* Mensaje */
+ 
+ .mensaje p{
+   /* color: white; */
+   margin-bottom: 2px;
+ }
+ 
+ /* Sec mensajes */
+ 
+ .sec_mensajes{
+   display: flex;
+   /* border: 1px solid red; */
+   align-items: flex-end;
+   justify-content: baseline;
+   height: 89vh;
+ }
+ 
+ .content{
+   height: 64vh;
+   width: 100%;
+   display: flex;
+ }
+ 
+ .conten_mensajes{
+   width: 130px;
+   padding: 5px;
+   height: 10px;
+   display: flex;
+   margin-top: 380px;
+   flex-direction: column;
+   justify-content: space-around;
+   font-size: 15px;
+ }
+ 
+ .en_li_msj{
+   display: flex;
+   margin-top: 20px;
+ }
+ 
+ .conten_chats{
+   border-left: 1px solid aqua;
+   border-right: 1px solid aqua;
+ }
+ 
+ .mos_msj_rec{
+   width: 50%;
+   margin-left: 5%;
+ }
+ 
+ .mos_msj_env{
+   margin-left: 68%;
+ }
+ .triangulo_derecha{
+   margin-left: 30%;
+ }
+ 
+ .sec_chats{
+   width: 57%;
+   position: absolute;
+   margin-left: 150px;
+   margin-top: -99px;
+   height: 90vh;
+ }
+ 
+ .form_msj{
+  padding: 20px; 
   display: flex;
-  align-items: center;
-  padding: 5px;
-}
-
-.nuevo_post span{
-  font-size: 11px;
-}
-
-.nuevo_post button{
-  font-size: 11px;
-}
-
-/* Post */
-
-.publicacion{
-  width: 360px;
-  height: 400px;
-}
-
-.reacciones button{
-  padding: 0px;
-  font-size: 11px;
-}
-
-/* Cuenta */
-
-.conten_p_f{
-  height: 200px;
-}
-
-.portada{
-  height: 100px;
-  margin-left: 0%;
-  width: 100%;
-}
-
-.foto_perfil{
-  height: 100px;
-  width: 100px;
-  margin-top: 50px;
-  margin-left: 35%;
-}
-
-.sec_datos{
-  position: absolute;
-  height: 110px;
-  width: 100%;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  display: none;
-}
-
-.conten_n_v{
-  width: 340px;
-}
-
-/* Mensajes */
-
-.section_mensajes{
-  border: 3px solid aqua;
-  height: 45%;
-  margin-top: 3%;
-  overflow: hidden;
-}
-
-.title_m{
-  /* color: white; */
-  margin-left: 35%;
-  padding: 7px;
-}
-
-/* Mensaje */
-
-.mensaje p{
-  /* color: white; */
-  margin-bottom: 2px;
-}
-
-/* Sec mensajes */
-
-.sec_mensajes{
-  display: flex;
-  /* border: 1px solid red; */
-  align-items: flex-end;
-  justify-content: baseline;
-  height: 89vh;
-}
-
-.content{
-  height: 64vh;
-  width: 100%;
-  display: flex;
-}
-
-.conten_mensajes{
-  width: 130px;
-  padding: 5px;
-  height: 10px;
-  display: flex;
-  margin-top: 380px;
-  flex-direction: column;
-  justify-content: space-around;
-  font-size: 15px;
-}
-
-.en_li_msj{
-  display: flex;
-  margin-top: 20px;
-}
-
-.conten_chats{
-  border-left: 1px solid aqua;
-  border-right: 1px solid aqua;
-}
-
-.mos_msj_rec{
-  width: 50%;
-  margin-left: 5%;
-}
-
-.mos_msj_env{
-  margin-left: 68%;
-}
-.triangulo_derecha{
-  margin-left: 30%;
-}
-
-.sec_chats{
-  width: 57%;
-  position: absolute;
-  margin-left: 150px;
-  margin-top: -99px;
-  height: 90vh;
-}
-
-.form_msj{
- padding: 20px; 
- display: flex;
-}
-
-.textarea_msj{
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  outline: none;
-  border: none;
-  width: 95%;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.env_msj{
-  background-color: aqua;
-  color: black;
-  padding: 3px;
-  width: 60px;
-  border-radius: 5px;
-}
-
-/* notoficaciones */
-
-.sec_notificaciones{
-  display: flex;
-}
-
-.notficas{
-  height: 400px;
-  width: 100%;
-}
-
-.notificacion{
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid aqua;
-  border-radius: 5px;
-  padding: 20px;
-  width: 250px;
-  margin-left: 10%;
-}
-
-.notifi_footer{
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  border-right: 1px solid aqua;
-  height: 250px;
-  margin-top: 50px;
-  display: none;
-}
-
-/* footer */
-
-.footer{
-  position: fixed;
-  margin-top: 20%;
-  margin-left: 0.01%;
-  padding: 10px;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(56, 54, 54);
-  color: rgb(212, 203, 203);
-}
-
-}
+ }
+ 
+ .textarea_msj{
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   outline: none;
+   border: none;
+   width: 95%;
+   font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ .env_msj{
+   background-color: aqua;
+   color: black;
+   padding: 3px;
+   width: 60px;
+   border-radius: 5px;
+ }
+ 
+ /* notoficaciones */
+ 
+ .sec_notificaciones{
+   display: flex;
+ }
+ 
+ .notficas{
+   height: 400px;
+   width: 100%;
+ }
+ 
+ .notificacion{
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid aqua;
+   border-radius: 5px;
+   padding: 20px;
+   width: 250px;
+   margin-left: 10%;
+ }
+ 
+ .notifi_footer{
+   width: 200px;
+   display: flex;
+   justify-content: center;
+   border-right: 1px solid aqua;
+   height: 250px;
+   margin-top: 50px;
+   display: none;
+ }
+ 
+ /* footer */
+ 
+ .footer{
+   position: fixed;
+   margin-top: 20%;
+   margin-left: 0.01%;
+   padding: 10px;
+   width: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(56, 54, 54);
+   color: rgb(212, 203, 203);
+ }
+ 
+ }

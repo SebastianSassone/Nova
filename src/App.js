@@ -14,7 +14,7 @@ return (
 <Registro></Registro>
 <Navegacion links={ rutas }/>
           <Routes>
-              <Route className="inicio" path='/Nova/inicio' element={<Main/>}></Route>
+              <Route className="inicio" path='/Nova/' element={<Main/>}></Route>
               <Route path='/Nova/mensajes' element={<Mensajes></Mensajes>}></Route>
               <Route path='/Nova/notificaciones' element={<Notificaciones></Notificaciones>}></Route>
               <Route path='/Nova/cuenta' element={<Cuenta></Cuenta>}></Route>
