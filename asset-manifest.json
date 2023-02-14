@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nova/static/css/main.86a3b975.css",
-    "main.js": "/Nova/static/js/main.af3690d8.js",
+    "main.css": "/Nova/static/css/main.5cd2956f.css",
+    "main.js": "/Nova/static/js/main.296da69f.js",
     "static/js/787.506dd8ed.chunk.js": "/Nova/static/js/787.506dd8ed.chunk.js",
     "static/media/estrellas-de-la-via-lactea_3840x2400_xtrafondos.com.jpg": "/Nova/static/media/estrellas-de-la-via-lactea_3840x2400_xtrafondos.com.ebb8c6f0fa1432c11680.jpg",
     "static/media/tree-6057779.jpg": "/Nova/static/media/tree-6057779.54d286ed922ed6091c73.jpg",
@@ -15,12 +15,12 @@
     "static/media/user_icon_149851.png": "/Nova/static/media/user_icon_149851.10ef5b17475b0e5185a0.png",
     "static/media/590-5906074_icono-lupa-signo-mas-icono-lupa-png-transparent.png": "/Nova/static/media/590-5906074_icono-lupa-signo-mas-icono-lupa-png-transparent.74d2f9e04107f38c9a80.png",
     "index.html": "/Nova/index.html",
-    "main.86a3b975.css.map": "/Nova/static/css/main.86a3b975.css.map",
-    "main.af3690d8.js.map": "/Nova/static/js/main.af3690d8.js.map",
+    "main.5cd2956f.css.map": "/Nova/static/css/main.5cd2956f.css.map",
+    "main.296da69f.js.map": "/Nova/static/js/main.296da69f.js.map",
     "787.506dd8ed.chunk.js.map": "/Nova/static/js/787.506dd8ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86a3b975.css",
-    "static/js/main.af3690d8.js"
+    "static/css/main.5cd2956f.css",
+    "static/js/main.296da69f.js"
   ]
 }
