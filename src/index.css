@@ -877,7 +877,7 @@
      border: 3px ridge #000000;
    }
  
- @media screen and (max-width: 600px){
+ @media screen and (max-width: 1076px){
  
    /* Registro */
    .section_registro{
@@ -1010,7 +1010,7 @@
  /* Nuevo Post */
  
  .nuevo_post{
-   width: 360px;
+   width: 335px;
  }
  
  .nuevo_post label{
@@ -1032,7 +1032,7 @@
  /* Post */
  
  .publicacion{
-   width: 360px;
+   width: 335px;
    height: 400px;
  }
  

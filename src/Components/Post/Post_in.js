@@ -12,7 +12,7 @@ function Post(props){
     }
 
     function alerta(){
-        alert('Funcion no disponibe en esta vercion de la aplicacion')
+        alert('Funcion no disponible')
     }
 
         return(
